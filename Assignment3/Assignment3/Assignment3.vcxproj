@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1aacbac0-7f61-42fe-a726-a7eaa21f2488}</ProjectGuid>
-    <RootNamespace>Project3</RootNamespace>
+    <ProjectGuid>{d4e25742-ab71-4cb8-93ef-0e4ab38301c6}</ProjectGuid>
+    <RootNamespace>Assignment3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\callc\source\repos\IGME309\MyLib\MyLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\callc\source\repos\IGME309\Assignment3;C:\Users\callc\source\repos\IGME309\MyLib\MyLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,7 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\firstProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\interactiveTriangle.cpp" />
+    <ClCompile Include="PolyObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PolyObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
