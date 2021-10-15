@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\interactiveTriangle.cpp">
+    <ClCompile Include="PolyObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PolyObject.cpp">
+    <ClCompile Include="interactiveTriangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
